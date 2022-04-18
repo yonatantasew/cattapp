@@ -12,13 +12,15 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.red,
         leading: IconButton(
           icon: Icon(Icons.menu),
           iconSize: 30.0,
           color: Colors.white,
           onPressed: () {},
         ),
-        title: Text(
+        centerTitle: true,
+        title: const Text(
           'Chats',
           style: TextStyle(
             fontSize: 28.0,
