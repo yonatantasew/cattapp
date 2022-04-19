@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:chattapp/widgets/catagory_selector.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -38,7 +39,9 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       body: Column(
-        children: <Widget>[],
+        children: <Widget>[
+          catagorySelector(),
+        ],
       ),
     );
   }
