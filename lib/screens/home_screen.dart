@@ -12,6 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).primaryColor,
       appBar: AppBar(
         backgroundColor: Colors.red,
         leading: IconButton(
@@ -41,6 +42,15 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         children: <Widget>[
           catagorySelector(),
+          Expanded(
+            child: Container(
+              decoration: BoxDecoration(
+                  color: Color.fromARGB(255, 248, 228, 228),
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(30.0),
+                      topRight: Radius.circular(30.0))),
+            ),
+          ),
         ],
       ),
     );
