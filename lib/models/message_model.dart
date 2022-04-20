@@ -41,7 +41,7 @@ List<Message> chats = [
       sender: james,
       time: '5:30 PM',
       text: 'Hey, How is it going? what did you do today? ',
-      isLiked: false,
+      isLiked: true,
       unread: true),
   Message(
       sender: olivia,
@@ -53,7 +53,7 @@ List<Message> chats = [
       sender: john,
       time: '3:30 PM',
       text: 'Hey, How is it going? what did you do today? ',
-      isLiked: false,
+      isLiked: true,
       unread: true),
   Message(
       sender: sophia,
@@ -65,7 +65,7 @@ List<Message> chats = [
       sender: steven,
       time: '1:30 PM',
       text: 'Hey, How is it going? what did you do today? ',
-      isLiked: false,
+      isLiked: true,
       unread: true),
   Message(
       sender: sam,
@@ -87,7 +87,7 @@ List<Message> messages = [
       sender: james,
       time: '5:30 PM',
       text: 'Hey, How is it going? what did you do today? ',
-      isLiked: false,
+      isLiked: true,
       unread: true),
   Message(
       sender: currentUser,
@@ -105,7 +105,7 @@ List<Message> messages = [
       sender: james,
       time: '3:15 PM',
       text: 'All the food ',
-      isLiked: false,
+      isLiked: true,
       unread: true),
   Message(
       sender: james,
@@ -117,6 +117,6 @@ List<Message> messages = [
       sender: james,
       time: '2:00 PM',
       text: 'I ate so much food today. ',
-      isLiked: false,
+      isLiked: true,
       unread: true),
 ];
